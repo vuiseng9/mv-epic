@@ -25,8 +25,8 @@ def show_correspondences( img0, img1, corr ):
       ax1.lines = []
       ax2.lines = []
       n = sum((corr[:,2*numaxis:2*(numaxis+1)] - [x,y])**2,1).argmin() # find nearest point
-      print "\rdisplaying #%d (%d,%d) --> (%d,%d), score=%g from maxima %d" % (n,
-        corr[n,0],corr[n,1],corr[n,2],corr[n,3],corr[n,4],corr[n,5]),;sys.stdout.flush()
+      print("\rdisplaying #%d (%d,%d) --> (%d,%d), score=%g from maxima %d" % (n,
+        corr[n,0],corr[n,1],corr[n,2],corr[n,3],corr[n,4],corr[n,5]));sys.stdout.flush()
       x,y = corr[n,0:2]
       ax1.plot(x,y,'+',ms=10,mew=2,color='blue',scalex=False,scaley=False)
       x,y = corr[n,2:4]
@@ -70,7 +70,7 @@ def show_correspondences( img0, img1, corr ):
     
     fig = get_current_fig_manager().canvas.figure
     cid_move = fig.canvas.mpl_connect('motion_notify_event',motion_notify_callback)
-    print "Move your mouse over the top images to visualize individual matches"
+    print("Move your mouse over the top images to visualize individual matches")
     show()
     fig.canvas.mpl_disconnect(cid_move)
 

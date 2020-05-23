@@ -1,0 +1,4 @@
+*.o
+build/
+model.yml
+output_middlebury/

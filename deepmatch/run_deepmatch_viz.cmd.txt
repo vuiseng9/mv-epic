@@ -1,0 +1,15 @@
+./deepmatching-static /home/optical_flow//middlebury/public-color/twoframes//Dimetrodon/frame10.png /home/optical_flow//middlebury/public-color/twoframes//Dimetrodon/frame11.png -nt 8 | python3 viz.py /home/optical_flow//middlebury/public-color/twoframes//Dimetrodon/frame10.png /home/optical_flow//middlebury/public-color/twoframes//Dimetrodon/frame11.png
+
+./deepmatching-static /home/optical_flow//middlebury/public-color/twoframes//Grove2/frame10.png /home/optical_flow//middlebury/public-color/twoframes//Grove2/frame11.png -nt 8 | python3 viz.py /home/optical_flow//middlebury/public-color/twoframes//Grove2/frame10.png /home/optical_flow//middlebury/public-color/twoframes//Grove2/frame11.png
+
+./deepmatching-static /home/optical_flow//middlebury/public-color/twoframes//Grove3/frame10.png /home/optical_flow//middlebury/public-color/twoframes//Grove3/frame11.png -nt 8 | python3 viz.py /home/optical_flow//middlebury/public-color/twoframes//Grove3/frame10.png /home/optical_flow//middlebury/public-color/twoframes//Grove3/frame11.png
+
+./deepmatching-static /home/optical_flow//middlebury/public-color/twoframes//Hydrangea/frame10.png /home/optical_flow//middlebury/public-color/twoframes//Hydrangea/frame11.png -nt 8 | python3 viz.py /home/optical_flow//middlebury/public-color/twoframes//Hydrangea/frame10.png /home/optical_flow//middlebury/public-color/twoframes//Hydrangea/frame11.png
+
+./deepmatching-static /home/optical_flow//middlebury/public-color/twoframes//RubberWhale/frame10.png /home/optical_flow//middlebury/public-color/twoframes//RubberWhale/frame11.png -nt 8 | python3 viz.py /home/optical_flow//middlebury/public-color/twoframes//RubberWhale/frame10.png /home/optical_flow//middlebury/public-color/twoframes//RubberWhale/frame11.png
+
+./deepmatching-static /home/optical_flow//middlebury/public-color/twoframes//Urban2/frame10.png /home/optical_flow//middlebury/public-color/twoframes//Urban2/frame11.png -nt 8 | python3 viz.py /home/optical_flow//middlebury/public-color/twoframes//Urban2/frame10.png /home/optical_flow//middlebury/public-color/twoframes//Urban2/frame11.png
+
+./deepmatching-static /home/optical_flow//middlebury/public-color/twoframes//Urban3/frame10.png /home/optical_flow//middlebury/public-color/twoframes//Urban3/frame11.png -nt 8 | python3 viz.py /home/optical_flow//middlebury/public-color/twoframes//Urban3/frame10.png /home/optical_flow//middlebury/public-color/twoframes//Urban3/frame11.png
+
+./deepmatching-static /home/optical_flow//middlebury/public-color/twoframes//Venus/frame10.png /home/optical_flow//middlebury/public-color/twoframes//Venus/frame11.png -nt 8 | python3 viz.py /home/optical_flow//middlebury/public-color/twoframes//Venus/frame10.png /home/optical_flow//middlebury/public-color/twoframes//Venus/frame11.png
